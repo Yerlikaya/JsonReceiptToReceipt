@@ -9,5 +9,5 @@ using (StreamReader r = new StreamReader(Directory.GetCurrentDirectory() + @"/Re
     var receipts = JsonConvert.DeserializeObject<List<PartOfReceipt>>(json);
     var parts = JsonReceiptConverter.Convert(receipts);
     var lines = JsonReceiptConverter.ReceiptBeautifiler(parts);
-    await File.WriteAllLinesAsync(@"..\..\..\Output\receipt.txt", lines);
+    await File.WriteAllLinesAsync(Directory.GetCurrentDirectory() + $"/Output/receipt{DateTime.Now.Ticks}.txt", lines);
 }

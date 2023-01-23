@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JsonReceiptConsoleApp": {
+      "commandName": "Project",
+      "workingDirectory": "./"
+    }
+  }
+}

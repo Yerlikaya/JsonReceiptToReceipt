@@ -8,16 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\response.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Resources\response.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
 
@@ -27,6 +17,12 @@
 
   <ItemGroup>
     <Folder Include="Output\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\response.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

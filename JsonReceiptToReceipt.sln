@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReceiptToReceipt", "JsonReceiptToReceipt\JsonReceiptToReceipt.csproj", "{A87BBEE9-3FE9-4CB1-B437-470C6137DEAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonReceiptToReceipt", "JsonReceiptToReceipt\JsonReceiptToReceipt.csproj", "{A87BBEE9-3FE9-4CB1-B437-470C6137DEAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReceiptConsoleApp", "JsonReceiptConsoleApp\JsonReceiptConsoleApp.csproj", "{C88E2A0C-ED82-4F8A-9080-C993D7D019BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonReceiptConsoleApp", "JsonReceiptConsoleApp\JsonReceiptConsoleApp.csproj", "{C88E2A0C-ED82-4F8A-9080-C993D7D019BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
